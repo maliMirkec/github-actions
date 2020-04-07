@@ -3,7 +3,7 @@ name: Gulp image optimization
 on: [push]
 
 jobs:
-  grunt-build:
+  gulp-build:
 
     runs-on: ubuntu-latest
 
