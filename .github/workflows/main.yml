@@ -1,0 +1,19 @@
+name: Gulp image optimization
+
+on: [push]
+
+jobs:
+  grunt-build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Optimize images using Gulp
+      uses: elstudio/actions-js-build/build@v2
+
+    - name: Commit changes
+      uses: elstudio/actions-js-build/commit@v3
+      with:
+        commitMessage: Images optimized.
