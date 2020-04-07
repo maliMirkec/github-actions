@@ -1,0 +1,47 @@
+{
+  "proot": "./",
+  "src": "src",
+  "dist": "dist",
+  "sync": {
+    "run": false
+  },
+  "html": {
+    "run": false
+  },
+  "css": {
+    "run": false
+  },
+  "js": {
+    "run": false
+  },
+  "gfx": {
+    "run": true,
+    "src": "gfx",
+    "dist": "gfx"
+  },
+  "fonts": {
+    "run": false
+  },
+  "favicon": {
+    "run": false
+  },
+  "critical": {
+    "run": false
+  },
+  "kss": {
+    "run": false
+  },
+  "sassdoc": {
+    "run": false
+  },
+  "jsdoc": {
+    "run": false
+  },
+  "bump": {
+    "run": false
+  },
+  "gzip": {
+    "run": false
+  },
+  "yarn": true
+}
