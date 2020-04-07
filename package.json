@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "autoconf": "^1.2.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-exit": "^0.0.2",
