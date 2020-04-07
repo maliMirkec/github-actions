@@ -13,11 +13,6 @@ jobs:
 #     - name: Optimize images using Gulp
 #       uses: elstudio/actions-js-build/build@v2
 
-#     - name: Commit changes
-#       uses: elstudio/actions-js-build/commit@v3
-#       with:
-#         commitMessage: Images optimized.
-
     steps:
     - uses: actions/checkout@v2
 
@@ -29,3 +24,8 @@ jobs:
     - run: npm install
 
     - run: npm run build --if-present
+
+    - name: Commit changes
+      uses: elstudio/actions-js-build/commit@v3
+      with:
+        commitMessage: Images optimized.
